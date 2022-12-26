@@ -4,6 +4,10 @@ body {
 h1{
     color: rgb(60, 179, 113);
 }
+a{
+    font-size: 20px;
+    text-align: justify;
+}
 p{
     color: rgb(60, 179, 113);
     font-size: 18px;
