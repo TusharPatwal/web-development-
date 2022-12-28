@@ -146,3 +146,66 @@ A table in HTML consists of table cells inside rows and columns.<br>
   </tr>
 </table>
 ```
+
+
+### How To Add a Border
+When you add a border to a table, you also add borders around each table cell.<br>
+To add a border, use the CSS border property on table, th, and td elements:
+```
+table, th, td {
+  border: 1px solid black;
+}
+```
+
+### HTML Table - Colspan
+To make a cell span over multiple columns, use the colspan attribute:
+```
+<table>
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>43</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>57</td>
+  </tr>
+</table>
+```
+
+
+### HTML Table - Rowspan
+To make a cell span over multiple rows, use the rowspan attribute:
+
+```
+<table>
+  <tr>
+    <th>Name</th>
+    <td>Jill</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+</tr>
+</table>
+```
+
+<hr>
+
+## HTML Lists
+HTML lists allow web developers to group a set of related items in lists.
+
+| An unordered HTML list:| An ordered HTML list:|
+|----------|----------|
+| Item | 1. First item |
+| Item | 2. Second item | 
+| Item | 3. Third item | 
+| Item | 4. Fourth item |
