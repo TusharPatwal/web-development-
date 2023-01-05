@@ -6,10 +6,11 @@ let saveEL = document.getElementById("save-el")
 
 function increment() {
     count += 1
-    countEL.innerText = count
+    countEL.textContent = count
 }
 function save() {
     let var1 = " " + count + " - "
-    saveEL.innerText += var1
-    console.log(count)
+    saveEL.textContent += var1
+    countEL.textContent = 0
+    count = 0
 }
