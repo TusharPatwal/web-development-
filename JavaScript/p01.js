@@ -48,3 +48,9 @@ remove1Point()
 remove1Point()
 
 console.log(mypoints)
+
+let error = document.getElementById("error")
+
+function errorEL(){
+    error.textContent = "Something went wrong, please try again"
+}
